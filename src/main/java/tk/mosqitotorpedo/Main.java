@@ -16,10 +16,19 @@ public class Main {
         int term2 = Integer.parseInt(equation[2]);
         String operation = equation[1];
 
+        switch (operation) {
+            case "+":
+                System.out.println(term1 + term2);
 
-        System.out.println(term1 + term2 + operation);
+            case "-":
+                System.out.println(term1 - term2);
 
+            case "*":
+                System.out.println(term1 * term2);
 
+            case "/":
+                System.out.println(term1 / term2);
+        }
 
 
     }
