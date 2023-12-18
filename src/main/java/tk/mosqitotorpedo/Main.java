@@ -12,8 +12,8 @@ public class Main {
         String userInput = scanner.nextLine();
 
         String[] equation = userInput.split(" ");
-        int term1 = Integer.parseInt(equation[0]);
-        int term2 = Integer.parseInt(equation[2]);
+        float term1 = Integer.parseInt(equation[0]);
+        float term2 = Integer.parseInt(equation[2]);
         String operation = equation[1];
 
         switch (operation) {
