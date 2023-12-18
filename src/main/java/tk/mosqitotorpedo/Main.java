@@ -19,15 +19,19 @@ public class Main {
         switch (operation) {
             case "+":
                 System.out.println(term1 + term2);
+                break;
 
             case "-":
                 System.out.println(term1 - term2);
+                break;
 
             case "*":
                 System.out.println(term1 * term2);
+                break;
 
             case "/":
                 System.out.println(term1 / term2);
+                break;
         }
 
 
